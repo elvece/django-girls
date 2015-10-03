@@ -22,9 +22,15 @@ else:
   print ('You passed with an above average score')
 
 def hi(name):
-  if (name == 'Lucy'):
-    print ('Hi Lucy!')
-  else:
-    print ('Hi ' + name + '!')
-
+  print ('Hi ' + name + '!')
 hi('john')
+
+girls = ['sandra', 'sarah', 'allie', 'lucy']
+
+# for name in girls:
+#   hi(name)
+#   print ('NEXT')
+
+for test in girls:
+  hi(test)
+  print ('---')
