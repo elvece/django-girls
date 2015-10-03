@@ -1,3 +1,6 @@
-from django.contrib import admin
+# admin.py is used to add, edit and delete posts we've just modeled
 
-# Register your models here.
+from django.contrib import admin
+from .models import Post
+
+admin.site.register(Post)
