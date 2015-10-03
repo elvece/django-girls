@@ -20,3 +20,8 @@ elif (61 <= score <= 80):
   print ('You passed!')
 else:
   print ('You passed with an above average score')
+
+def hi():
+  print ('Hi there!')
+
+hi()
