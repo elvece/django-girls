@@ -34,3 +34,6 @@ girls = ['sandra', 'sarah', 'allie', 'lucy']
 for test in girls:
   hi(test)
   print ('---')
+
+for i in range(1,10):
+  print(i)
