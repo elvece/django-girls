@@ -21,7 +21,10 @@ elif (61 <= score <= 80):
 else:
   print ('You passed with an above average score')
 
-def hi():
-  print ('Hi there!')
+def hi(name):
+  if (name == 'Lucy'):
+    print ('Hi Lucy!')
+  else:
+    print ('Hi ' + name + '!')
 
-hi()
+hi('john')
