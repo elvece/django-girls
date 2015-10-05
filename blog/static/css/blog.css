@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #ff9400;
+    background-color: #7689A9;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -15,7 +15,13 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Rock Salt', cursive;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
 }
 
 .date {
